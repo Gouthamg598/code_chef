@@ -1,0 +1,29 @@
+# cghess board distance  max((x1-x2),(y1-y2))
+===================================================
+
+t=int(input('testcases'))
+for i in range(t):
+    x1,y1,x2,y2=map(int,input('enter numbers').split())
+    a=abs(x1-x2)
+    b=abs(y1-y2)
+    print(max(a,b))
+    
+# three topics
+=================================================
+a,b,c,x=map(int,input().split())
+if x in(a,b,c):
+    print("yes")
+else:
+    print("no")
+    
+# discus
+==================================================
+t=int(input())
+for i in range(t):
+    a,b,c=map(int,input().split())
+    if a>=b and a>=c:
+        print(a)
+    elif b>=a and b>=c:
+        print(b)
+    else:
+        print(c)
