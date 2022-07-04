@@ -1,4 +1,4 @@
-# cghess board distance  max((x1-x2),(y1-y2))
+# chess board distance  max((x1-x2),(y1-y2))
 ===================================================
 
 t=int(input('testcases'))
